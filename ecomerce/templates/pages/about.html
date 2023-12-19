@@ -1,0 +1,58 @@
+{% extends "pages/base.html" %}
+{% load static %}
+{% block title %}About{% endblock title %}
+
+{% block banner_slider %}
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{% static 'base/images/banner/b1.jpg' %}" class="d-block w-100" alt="banner image">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'base/images/banner/b2.jpg' %}" class="d-block w-100" alt="banner image">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'base/images/banner/b3.jpg' %}" class="d-block w-100" alt="banner image">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'base/images/banner/b4.jpg' %}" class="d-block w-100" alt="banner image">
+    </div>
+
+  </div>
+</div>
+
+{% endblock banner_slider %}
+
+{% block main-content %}
+<div class="container mt-3">
+    <br>
+    <h2 class="test-center">About Us</h2>
+    <br>
+    <div class="row container">
+        <p class="fs-4 text-center">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa omnis hic molestias sed perferendis, eius
+            laboriosam ipsum placeat temporibus exercitationem voluptates iure deleniti fuga fugit nisi minus vitae.
+            Earum tempora reprehenderit magnam reiciendis. Nisi, explicabo eaque culpa veritatis officiis numquam amet
+            molestias. Suscipit possimus facilis eum provident dolores unde quidem placeat consectetur, maxime adipisci
+            earum. Quibusdam expedita mollitia distinctio laborum necessitatibus totam debitis similique non, delectus,
+            aut error corporis explicabo corrupti minima eveniet magni perspiciatis quidem obcaecati nulla voluptatum
+            quod unde? Veniam modi possimus in, minus autem quas ipsum non cupiditate exercitationem soluta distinctio
+            officiis accusantium enim ex reprehenderit aut.
+        </p>
+    </div>
+    <br><br>
+    <h2 class="text-center">Mission</h2>
+    <br>
+    <div class="row container">
+        <p class="fs-4 text-center">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni totam quasi laborum quibusdam rem error cum.
+            Aliquid atque corrupti recusandae fugiat consectetur velit, enim animi! Distinctio sapiente placeat earum
+            quas dolorem nobis officiis sunt magni. Maxime, eius vel? Ab sequi laboriosam eveniet aliquid. Similique
+            laboriosam suscipit sequi ipsam optio corporis!
+        </p>
+
+    </div>
+</div>
+<br><br>
+{% endblock main-content %}
